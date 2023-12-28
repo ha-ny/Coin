@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State
+    private var showNextPage = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("데이터 보여주기") {
+                showNextPage = true
+            }
         }
         .padding()
+        .sheet(isPresented: $showNextPage, content: {
+            SocketView()
+        })
     }
 }
 

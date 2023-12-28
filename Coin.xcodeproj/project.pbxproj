@@ -12,6 +12,10 @@
 		3F7849322B3A615C003871A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7849312B3A615C003871A3 /* Assets.xcassets */; };
 		3F7849352B3A615C003871A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7849342B3A615C003871A3 /* Preview Assets.xcassets */; };
 		3F78493C2B3A6286003871A3 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78493B2B3A6286003871A3 /* WebSocketManager.swift */; };
+		3F78493E2B3A6B35003871A3 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78493D2B3A6B35003871A3 /* SocketViewModel.swift */; };
+		3F7849402B3A6BF6003871A3 /* SocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78493F2B3A6BF6003871A3 /* SocketView.swift */; };
+		3F7849422B3A7CFD003871A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7849412B3A7CFD003871A3 /* Model.swift */; };
+		3FE649BA2B3D0316005D1E4B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE649B92B3D0316005D1E4B /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		3F7849312B3A615C003871A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7849342B3A615C003871A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F78493B2B3A6286003871A3 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		3F78493D2B3A6B35003871A3 /* SocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewModel.swift; sourceTree = "<group>"; };
+		3F78493F2B3A6BF6003871A3 /* SocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketView.swift; sourceTree = "<group>"; };
+		3F7849412B3A7CFD003871A3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3FE649B92B3D0316005D1E4B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +63,13 @@
 			children = (
 				3F78492D2B3A615B003871A3 /* CoinApp.swift */,
 				3F78492F2B3A615B003871A3 /* ContentView.swift */,
+				3F78493F2B3A6BF6003871A3 /* SocketView.swift */,
 				3F7849312B3A615C003871A3 /* Assets.xcassets */,
 				3F7849332B3A615C003871A3 /* Preview Content */,
 				3F78493B2B3A6286003871A3 /* WebSocketManager.swift */,
+				3F78493D2B3A6B35003871A3 /* SocketViewModel.swift */,
+				3F7849412B3A7CFD003871A3 /* Model.swift */,
+				3FE649B92B3D0316005D1E4B /* LoginViewController.swift */,
 			);
 			path = Coin;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE649BA2B3D0316005D1E4B /* LoginViewController.swift in Sources */,
 				3F7849302B3A615B003871A3 /* ContentView.swift in Sources */,
+				3F7849402B3A6BF6003871A3 /* SocketView.swift in Sources */,
+				3F78493E2B3A6B35003871A3 /* SocketViewModel.swift in Sources */,
+				3F7849422B3A7CFD003871A3 /* Model.swift in Sources */,
 				3F78492E2B3A615B003871A3 /* CoinApp.swift in Sources */,
 				3F78493C2B3A6286003871A3 /* WebSocketManager.swift in Sources */,
 			);
